@@ -1,0 +1,1 @@
+# php_disabled_functions_webshell
